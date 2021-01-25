@@ -23,7 +23,6 @@ function greet(timeString) {
 
 
 /* Write your implementation of displayMessage() */
-function displayMessage(greeting){
-  const message= document.getElementById('greeting')
-  message.innerText = greeting;
-    }
+function displayMessage(message) {
+  document.getElementById("greeting").innerText = message;
+}
